@@ -1,0 +1,64 @@
+@use "colors" as clr;
+.price-illustration{
+    position:absolute;
+    right:0;
+    top:-60px;
+    width:220px;
+    z-index:0;
+}
+
+.container_pricing{
+    position:relative;
+    width:90%;
+    max-width:380px;
+    margin:0 auto;
+    background:clr.$price_container_bg;
+    padding:35px;
+    z-index:1;
+}
+
+.pricing_head{
+    display:flex;
+    align-items:flex-end;
+    gap:5px;
+    border-bottom:1px solid clr.$price_border_bottom;
+    padding-bottom:20px;
+}
+
+.p_h1{
+    font-size:56px;
+    line-height:1;
+}
+
+.price_p{
+    color:clr.$fontcolor2;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.p_h3{
+    color:clr.$fontcolor1;
+    font-size:18px;
+    padding:25px 0;
+    border-bottom:1px solid clr.$price_border_bottom;
+}
+
+.price_list{
+    color:clr.$fontcolor2;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:18px 0;
+    border-bottom:1px solid clr.$price_border_bottom;
+    font-size:16px;
+}
+
+.check-icon{
+    width:16px;
+    height:16px;
+}
+
+.p_btn{
+    margin-top:35px;
+}
+

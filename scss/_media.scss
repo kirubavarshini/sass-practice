@@ -1,0 +1,196 @@
+@media (max-width:992px){
+
+.container{
+    flex-direction:column;
+    text-align:center;
+}
+
+.logo{
+    order:2;
+}
+
+.bg_img{
+    max-width:450px;
+    margin:0 auto;
+}
+
+.container_hero_1,
+.container_hero_2{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:60px;
+}
+
+.container_hero_1>div,
+.container_hero_2>div{
+    flex:0 0 calc(50% - 30px);
+}
+
+.container_tail{
+    flex-direction:column;
+    gap:30px;
+    text-align:center;
+}
+
+.footer{
+    flex-direction:column;
+    gap:25px;
+}
+
+.footer_text{
+    flex-direction:column;
+    gap:20px;
+    text-align:center;
+}
+
+}
+
+
+@media (max-width:768px){
+
+.container{
+    padding:30px 0;
+}
+
+.logo_img{
+    margin:0 auto 35px;
+}
+
+.h1{
+    font-size:36px;
+    line-height:48px;
+}
+
+.p{
+    font-size:17px;
+    line-height:28px;
+}
+
+.btn1,
+.btn2{
+    display:block;
+    width:100%;
+    margin:15px auto;
+}
+
+.container_hero_1,
+.container_hero_2{
+    display:grid;
+    grid-template-columns:auto auto;
+    margin-top:70px;
+}
+
+.container_hero_1>div,
+.container_hero_2>div{
+    margin-bottom:60px;
+}
+
+.heading{
+    font-size:34px;
+}
+
+.para{
+    font-size:17px;
+    line-height:28px;
+    width:90%;
+    margin:0 auto 60px;
+}
+
+.price-illustration{
+    display:none;
+}
+
+.container_pricing{
+    width:95%;
+    padding:30px;
+}
+
+.p_h1{
+    font-size:46px;
+}
+
+.h2_tail{
+    font-size:24px;
+}
+
+.footer{
+    text-align:center;
+}
+
+.section{
+    justify-content:center;
+}
+
+.footer_text{
+    text-align:center;
+}
+
+.foot{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+}
+
+@media (max-width:480px){
+.container{
+    border:10px solid green;
+}
+.h1{
+    font-size:30px;
+    line-height:40px;
+}
+
+.p{
+    font-size:16px;
+}
+
+.heading{
+    font-size:30px;
+}
+
+.h2{
+    font-size:20px;
+}
+
+.p1{
+    font-size:16px;
+    line-height:28px;
+}
+
+.container_pricing{
+    padding:25px;
+}
+
+.p_h1{
+    font-size:40px;
+}
+
+.price_p{
+    font-size:16px;
+}
+
+.h3{
+    font-size:17px;
+}
+
+.price_list{
+    font-size:15px;
+}
+
+.h2_tail{
+    font-size:20px;
+}
+
+.btn3,
+.btn4{
+    width:100%;
+}
+
+.logo1{
+    margin:0 auto;
+}
+.container_hero_1{
+    display:block;
+}
+}
